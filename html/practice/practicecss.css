@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: #000000;
+    /* text-align: center; */
+    padding: 1em;
+    width:100%;
+    padding:0px 16px 16px 0px;
+}
+
+header p{
+    font-size:10px;
+    color:aliceblue;
+    display:inline;
+    position:relative;
+    gap:200px;
+}
+p a{
+    text-decoration:none;
+    color:white;
+}
+#amazon{
+    color:rgb(255, 155, 24);
+     /* left:0em; */
+}
+/* #account{
+    left:2em;
+}
+#mCard{
+    left:4em;
+}
+#contactUs{
+    left:6em;
+}
+#search{
+    left:8em;
+} */

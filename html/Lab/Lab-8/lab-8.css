@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height: 250pxpx;
+    width:250                                            px;
+    background-color: rgb(255, 194, 183);
+    margin-left:40%;
+    margin-top:10%;
+}
+#dot1{
+    border:1px solid black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color: #48cae4;
+    position:relative;
+    top:-10px;
+    right:10px;
+
+}
+#dot2{
+    border:1px solid black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color: #48cae4;
+    position:relative;
+    left: 75px;
+    top: -30px;
+}
+#dot3{
+    border:1px solid black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color: #48cae4;
+    position:relative;
+    left: 140px;
+    top: -50px;
+}
+#dot4{
+    border:1px solid black;
+    border:1px solid black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color: #48cae4;
+    position:relative;
+}
+#dot5{
+    border:1px solid black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color: #48cae4;
+    position:relative;
+}
+#dot6{
+    border:1px solid black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color: #48cae4;
+    position:relative;
+}
+#dot7{
+    border:1px solid black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color: #48cae4;
+    position:relative;
+}
+#dot8{
+    border:1px solid black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color: #48cae4;
+    position:relative;
+}
+#dot9{
+    border:1px solid black;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color: #48cae4;
+    position:relative;
+}
