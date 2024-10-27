@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#box1{
+    height:40vh;
+    width:10vw;
+    background-color: #96D0B8;
+}
+#box2{
+    height:40vh;
+    width:10vw;
+
+    background-color: #FC6F64;
+}
+#box3{
+    height:40vh;
+    width:10vw;
+
+    background-color: #FFCD5A;
+}
+#box4{
+    height:40vh;
+    width:10vw;
+
+    background-color: #219EBC;
+}
