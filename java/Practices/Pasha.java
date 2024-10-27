@@ -1,4 +1,3 @@
-
 public class Pasha {
 
     public static void main(String[] args) {
