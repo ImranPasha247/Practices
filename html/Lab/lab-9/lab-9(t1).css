@@ -1,28 +1,32 @@
 body{
-    display:flex;
+    display:grid;
+    grid-template-columns:repeat(4,0fr);
+    gap:0%;
     justify-content:center;
     align-items:center;
+    
 }
 #box1{
     height:40vh;
     width:10vw;
     background-color: #96D0B8;
+    margin:1px;
 }
 #box2{
     height:40vh;
     width:10vw;
-
     background-color: #FC6F64;
+    margin:1px;
 }
 #box3{
     height:40vh;
     width:10vw;
-
     background-color: #FFCD5A;
+    margin:1px;
 }
 #box4{
     height:40vh;
     width:10vw;
-
     background-color: #219EBC;
+    margin:1px;
 }
