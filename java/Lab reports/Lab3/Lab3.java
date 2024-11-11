@@ -13,22 +13,15 @@ public class Lab3 {
     }
 }
 class Car {
-
      String brand;
      int year;
-
-    // Constructor to initialize the car's brand and year
     public Car(String brand, int year) {
         this.brand = brand;
         this.year = year;
     }
-
-    // Setter for year
     public void setYear(int year) {
         this.year = year;
     }
-
-    // Method to display car details
     public void displayDetails() {
         System.out.println("Brand: " + brand);
         System.out.println("Year: " + year);
