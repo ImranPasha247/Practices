@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+</head>
+<body>
+    <script>
+        let Table = (number) => {
+            console.log(`Multiplication Table for ${number}:`);
+            for (let i = 1; i <= 10; i++) {
+                console.log(number + " × " + i + " = " + (number * i));
+            }
+        }
+        let number = parseInt(prompt("Enter a number to see its multiplication table: "));
+        Table(number);
+    </script>
+</body>
+</html>

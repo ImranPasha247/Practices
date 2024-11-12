@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-4</title>
+</head>
+<body>
+    <script>
+        const departments = [
+        {
+        departmentName: "Computer and Communication Engineering",
+        HOD: "Dr. Reju Ahmed",
+        students: [
+            {
+                name: "Imran Pasha Sinha",
+                studentID: "E241005",
+                currentSemester: "2nd",
+            },
+            {
+                name: "Md. Moinul Islam Mustofa",
+                studentID: "E241031",
+                currentSemester: "2nd",
+            },
+            {
+                name: "Reajul Hasan Raju",
+                studentID: "E202014",
+                currentSemester: "8th",
+            }
+            ]
+        },];
+        departments.forEach(department => {
+            console.log("Department Name:", department.departmentName);
+            console.log("Head of Department:", department.HOD);
+            console.log("Students:");
+            department.students.forEach(student => {
+                console.log("Name:", student.name);
+                console.log("Student ID:", student.studentID);
+                console.log("Current Semester:", student.currentSemester);
+            });
+            console.log("\n");
+        });
+    </script>
+</body>
+</html>

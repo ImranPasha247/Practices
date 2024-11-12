@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+</head>
+<body>
+    <script>
+        let radius = parseFloat(prompt("Enter the radius of the circle: "));        
+        let calculateArea = (radius)=> {
+        const pi = Math.PI;
+        return pi * radius * radius;
+        }
+        let area = calculateArea(radius);
+        console.log("The area of the circle is: " + area);
+    </script>
+</body>
+</html>
